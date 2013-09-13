@@ -1,0 +1,148 @@
+html {
+	overflow: hidden;
+	
+}
+body {
+	background-image:url(../img/bg3.png) ;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:left bottom; 
+}
+#content {
+	position: relative;
+	margin: 0 auto;
+	width:300px;
+	height: 600px;
+	overflow: hidden;
+	/*background-color: black;*/
+	z-index: 10;
+
+}
+#shooter {
+	position: relative;
+	top: -210px;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	background-image:url(../img/target.png) ;
+	background-repeat:no-repeat;
+	background-size:150px 150px;
+	z-index: 15;
+}
+.arrowSet {
+	position: relative;
+	width: 100px;
+	bottom: 520px;
+	margin: 0 auto;
+	font-size: 100px;
+	color: white;
+	z-index: 20;
+}
+.icon-arrow-left {
+	color : yellow;
+}
+.icon-arrow-up {
+	color : red;
+}
+.icon-arrow-down {
+	color : green;
+}
+.icon-arrow-right {
+	color : blue;
+}
+#timer {
+	position: relative;
+	top: -20px;
+	color: red;
+}
+#clock {
+	position: absolute;
+	font-size: 75px;
+	top: 100px;
+}
+#gun {
+	position: fixed;
+	margin-left: -50px ;
+	bottom: -50px;
+	left: 50%;
+	width: 500px;
+	height: 300px;
+	background-image:url(../img/gun.png) ;
+	background-repeat:no-repeat;
+	background-size:500px 300px;
+
+}
+#score {
+	position: absolute;
+	right: 100px;
+	top: 100px;
+}
+.mask {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20000px;
+	height: 20000px;
+	background-color: black;
+	z-index: 30;
+}
+.finalScore {
+	position: fixed;
+	left: 50%;
+	top: 150px;
+	min-width: 900px;
+	font-family: 'Aldrich', sans-serif;
+	/*text-align: center;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;*/
+	display: inline-block;
+	margin-left: -430px; 
+	color: red;
+	font-size: 100px;
+	z-index: 40;
+}
+#turnback {
+	position: fixed;
+	left: 50%;
+	top: 350px;
+	width: 900px;
+	font-family: 'Aldrich', sans-serif;
+	/*text-align: center;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;*/
+	display: inline-block;
+	margin-left: -50px; 
+	color: white;
+	font-size: 100px;
+	z-index: 40;
+	cursor: pointer;
+}
+#turnback:hover {
+	color: yellow;
+}
+#startmenu {
+	position: absolute;
+	left: 50%;
+	top:200px;
+	margin-left: -150px;
+	z-index: 35;
+	font-family: 'Aldrich', sans-serif;
+	font-size: 35;
+}
+#aboutContent {
+	position: absolute;
+	top: 180px;
+	left: 50%;
+	z-index: 40;
+	background-color: white;
+	width: 350px;
+	margin-left: -125px;
+	border-radius: 5px;
+	padding: 20px;
+}
+.close {
+	position: relative;
+	z-index: 41;
+}
